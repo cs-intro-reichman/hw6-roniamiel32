@@ -158,7 +158,7 @@ public class Runigram {
 		for(int i = 0; i<res.length; i++) // row by row
 			for (int j = 0; j < res[0].length; j++) // col by col
 				res[i][j] = blend(image1[i][j], image2[i][j], alpha);
-		return null;
+		return res;
 	}
 
 	/**
